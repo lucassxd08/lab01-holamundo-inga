@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import com.inga.laboratorio01.ui.theme.Laboratorio01Theme
+import androidx.compose.material3.Button
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,6 +39,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         Text(text = "Hola, $name", fontSize = 24.sp)
         Text(text = "Curso: Programacion en Moviles")
         Text(text = "Docente: Juan Leon Suiyon")
+
+        Button(onClick = {}) {
+            Text(text = "Presioname")
+        }
     }
 }
 
