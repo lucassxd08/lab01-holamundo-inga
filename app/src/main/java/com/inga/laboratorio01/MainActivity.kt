@@ -35,10 +35,10 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Column(modifier = modifier) {
-        Text(text = "Hola, soy Lucas Inga", fontSize = 24.sp)
+        Text(text = "Hola, $name", fontSize = 24.sp)
         Text(text = "Curso: Programacion en Moviles")
         Text(text = "Ciclo: 4")
-        Text(text = "Instituto: Tecsup")
+        Text(text = "Lugar de educación: Tecsup")
     }
 }
 
