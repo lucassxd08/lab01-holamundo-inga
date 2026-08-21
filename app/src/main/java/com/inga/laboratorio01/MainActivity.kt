@@ -38,7 +38,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         Text(text = "Hola, soy Lucas Inga", fontSize = 24.sp)
         Text(text = "Curso: Programacion en Moviles")
         Text(text = "Ciclo: 4")
-        Text(text = "Centro de Educacion: Tecsup")
+        Text(text = "Instituto: Tecsup")
     }
 }
 
